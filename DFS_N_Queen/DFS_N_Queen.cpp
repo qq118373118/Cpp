@@ -87,6 +87,8 @@ void put_in(int n,int x,int y, vector<vector<int>>& attack) {
    }
 }
 
+
+
 int main()
 {
     int n;
