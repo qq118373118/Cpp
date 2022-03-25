@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Knapsack", "Knapsack\Knapsa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Merge_sort", "Merge_sort\Merge_sort.vcxproj", "{B84B35DD-86A3-4924-971F-6A1270ADF335}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Disjoint Set", "Disjoint Set\Disjoint Set.vcxproj", "{30DBC005-321E-4C67-8199-9D7B9AF59E78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{B84B35DD-86A3-4924-971F-6A1270ADF335}.Release|x64.Build.0 = Release|x64
 		{B84B35DD-86A3-4924-971F-6A1270ADF335}.Release|x86.ActiveCfg = Release|Win32
 		{B84B35DD-86A3-4924-971F-6A1270ADF335}.Release|x86.Build.0 = Release|Win32
+		{30DBC005-321E-4C67-8199-9D7B9AF59E78}.Debug|x64.ActiveCfg = Debug|x64
+		{30DBC005-321E-4C67-8199-9D7B9AF59E78}.Debug|x64.Build.0 = Debug|x64
+		{30DBC005-321E-4C67-8199-9D7B9AF59E78}.Debug|x86.ActiveCfg = Debug|Win32
+		{30DBC005-321E-4C67-8199-9D7B9AF59E78}.Debug|x86.Build.0 = Debug|Win32
+		{30DBC005-321E-4C67-8199-9D7B9AF59E78}.Release|x64.ActiveCfg = Release|x64
+		{30DBC005-321E-4C67-8199-9D7B9AF59E78}.Release|x64.Build.0 = Release|x64
+		{30DBC005-321E-4C67-8199-9D7B9AF59E78}.Release|x86.ActiveCfg = Release|Win32
+		{30DBC005-321E-4C67-8199-9D7B9AF59E78}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,12 +1,14 @@
 ﻿// 这里实现了一个大顶堆
 
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
 //函数声明
 void heapify(int arr[], int i, int n);
 void build_heap(int arr[], int n);
+void heap_sort(int arr[], int n);
 
 
 int main()
@@ -24,7 +26,9 @@ int main()
     }
 
     //调用创建大顶堆函数
-    build_heap(arr, n);
+    //build_heap(arr, n);
+
+    heap_sort(arr, n);
 
 
     for (int i = 0; i < n; i++) {
@@ -86,5 +90,14 @@ void build_heap(int arr[], int n) {
     //从第一个有孩子的结点往根节点进行heapify操作，可以完成大顶堆的创建。
     for (int i = parent; i >= 0; i--) {
         heapify(arr, i, n);
+    }
+}
+
+
+void heap_sort(int arr[], int n) {
+    build_heap(arr, n);
+    for (int i = n - 1; i >= 0; i--) {
+        swap(arr[i], arr[0]);
+        heapify(arr, 0, i);
     }
 }
